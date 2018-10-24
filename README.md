@@ -1,0 +1,2 @@
+# Sitecorize
+My Sitecore sandbox
