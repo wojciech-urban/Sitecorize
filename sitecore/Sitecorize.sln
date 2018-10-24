@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F2AC3C4A-5191-4087-A7E3-14E8016D10D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2F30B86D-45F9-43EF-91DD-8A089A25F6A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{54C77E61-8859-4678-A7DB-C4D261184E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicSources", "DynamicSources", "{55BED45F-E2B0-487D-8D80-CF29E2379807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datasource", "Datasource", "{B8F4B8F4-F06D-4AAD-9601-7823D520572F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Foundation.Datasource", "src\Foundation\Datasource\code\Sitecorize.Foundation.Datasource\Sitecorize.Foundation.Datasource.csproj", "{88F94109-60FA-4BFD-AC60-80744CB64452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{6A5E2065-FF28-4F8A-85D2-E8918005398C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecorize.Foundation.Serialization.csproj", "{ACB4FAD2-465D-4664-B69E-C7234A4574B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Foundation.DynamicSources.csproj", "src\Foundation\DynamicSources\code\Sitecorize.Foundation.DynamicSources.csproj.csproj", "{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{11EFB8D7-3678-4003-84B2-8DC27C3436D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C884DE18-FAAD-4B7D-84CC-C013B9F61FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Project.Website", "Sitecorize.Project.Website\Sitecorize.Project.Website.csproj", "{A5EB106C-C567-4833-A6E3-01FA655FE76E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F94109-60FA-4BFD-AC60-80744CB64452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F94109-60FA-4BFD-AC60-80744CB64452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F94109-60FA-4BFD-AC60-80744CB64452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F94109-60FA-4BFD-AC60-80744CB64452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB4FAD2-465D-4664-B69E-C7234A4574B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB4FAD2-465D-4664-B69E-C7234A4574B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB4FAD2-465D-4664-B69E-C7234A4574B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB4FAD2-465D-4664-B69E-C7234A4574B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EB106C-C567-4833-A6E3-01FA655FE76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EB106C-C567-4833-A6E3-01FA655FE76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EB106C-C567-4833-A6E3-01FA655FE76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EB106C-C567-4833-A6E3-01FA655FE76E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55BED45F-E2B0-487D-8D80-CF29E2379807} = {F2AC3C4A-5191-4087-A7E3-14E8016D10D6}
+		{B8F4B8F4-F06D-4AAD-9601-7823D520572F} = {F2AC3C4A-5191-4087-A7E3-14E8016D10D6}
+		{88F94109-60FA-4BFD-AC60-80744CB64452} = {B8F4B8F4-F06D-4AAD-9601-7823D520572F}
+		{6A5E2065-FF28-4F8A-85D2-E8918005398C} = {F2AC3C4A-5191-4087-A7E3-14E8016D10D6}
+		{ACB4FAD2-465D-4664-B69E-C7234A4574B4} = {6A5E2065-FF28-4F8A-85D2-E8918005398C}
+		{CF7A4AD6-8442-454B-B30B-CD7A0506E4F3} = {55BED45F-E2B0-487D-8D80-CF29E2379807}
+		{11EFB8D7-3678-4003-84B2-8DC27C3436D2} = {54C77E61-8859-4678-A7DB-C4D261184E3B}
+		{C884DE18-FAAD-4B7D-84CC-C013B9F61FE1} = {54C77E61-8859-4678-A7DB-C4D261184E3B}
+		{A5EB106C-C567-4833-A6E3-01FA655FE76E} = {11EFB8D7-3678-4003-84B2-8DC27C3436D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E97A14D-2C4C-4075-BF98-388A4A1F57A2}
+	EndGlobalSection
+EndGlobal
