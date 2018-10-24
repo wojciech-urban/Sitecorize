@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{11EF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C884DE18-FAAD-4B7D-84CC-C013B9F61FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Project.Website", "Sitecorize.Project.Website\Sitecorize.Project.Website.csproj", "{A5EB106C-C567-4833-A6E3-01FA655FE76E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecorize.Project.Website", "src\Project\Website\Sitecorize.Project.Website.csproj", "{A5EB106C-C567-4833-A6E3-01FA655FE76E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
